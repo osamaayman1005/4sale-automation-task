@@ -34,3 +34,7 @@ build/
 ### Mac OS ###
 .DS_Store
 .idea/misc.xml
+test-output/old/checkout-testing-suite/methods.html
+test-output/old/checkout-testing-suite/methods-alphabetical.html
+test-output/old/checkout-testing-suite/methods.html
+test-output/old/checkout-testing-suite/methods-alphabetical.html
