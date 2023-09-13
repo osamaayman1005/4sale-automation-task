@@ -36,9 +36,9 @@ public class CheckOutTests {
         Assert.assertEquals(productPriceInCart, productPriceInList,
                 "verify that price of the product in the cart equals" +
                         " to the price of the product in the product list");
-        CustomerInformationPage customerInformationPage = new CustomerInformationPage(driver);
         cartPage.checkout();
 
+        CustomerInformationPage customerInformationPage = new CustomerInformationPage(driver);
         customerInformationPage.addCustomerInformation(firstName, lastName, postalCode);
 
         OverviewPage overviewPage = new OverviewPage(driver);
