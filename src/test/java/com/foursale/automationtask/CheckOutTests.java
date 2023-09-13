@@ -73,7 +73,9 @@ public class CheckOutTests {
     @AfterSuite
     public void openTestNGReport() {
         try {
-            String reportFilePath = "F:\\Projects\\4sale-automation-task\\test-output\\old\\index.html"; // Update with your actual file path
+            String projectDirectory = System.getProperty("user.dir");
+            String reportFilePath = projectDirectory +
+                    "\\test-output\\old\\index.html";
 
             File reportFile = new File(reportFilePath);
 
