@@ -10,7 +10,7 @@
     <parameter name="firstName" value="ahmed"></parameter>
     <parameter name="lastName" value="ahmed"></parameter>
     <parameter name="postalCode" value="07775000"></parameter>
-    <test name="enable-testing-suite">
+    <test name="checkout-test">
         <classes>
             <class name="com.foursale.automationtask.CheckOutTests">
             </class>
