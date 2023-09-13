@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="checkout-testing-suite" >
+    <listeners>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+    </listeners>
+    <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <parameter name="firstName" value="ahmed"></parameter>
+    <parameter name="lastName" value="ahmed"></parameter>
+    <parameter name="postalCode" value="07775000"></parameter>
+    <test name="enable-testing-suite">
+        <classes>
+            <class name="com.foursale.automationtask.CheckOutTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>
